@@ -1,11 +1,11 @@
-# require_relative './spec_helper'
-# require 'benchmark'
 
-def using_while 
-  def countdown(x = 10)
-  
-    while x > 10
-    countdown = x
-    puts 
-  end
-end
+x = 10
+def countdown(number = x)
+ while number > 10
+    puts "#{number} SECOND(S)!"
+    countdown_output(number -= 1)
+    # countdown_with_sleep(5)
+   end
+  # puts "HAPPY NEW YEAR!"
+  "HAPPY NEW YEAR!"
+ end
