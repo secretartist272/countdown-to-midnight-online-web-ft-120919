@@ -1,8 +1,3 @@
-require_relative './spec_helper'
-require 'benchmark'
-require_relative '../countdown.rb'
-
-
 
 def countdown(number)
   while number > 0 do
